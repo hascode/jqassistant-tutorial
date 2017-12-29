@@ -10,6 +10,8 @@ To validate this project, simple run the following command using [Maven]:
 mvn clean package jqassistant:scan jqassistant:analyze
 ```
 
+The result (failing build) can be viewed in the following [Bitbucket Pipelines Build].
+
 Please feel free to visit my blog at [www.hascode.com] for the full tutorial and further information.
 
 ----
@@ -19,3 +21,5 @@ Please feel free to visit my blog at [www.hascode.com] for the full tutorial and
    [jqAssistant]:https://jqassistant.org/
    [www.hascode.com]:http://www.hascode.com/
    [Maven]:http://maven.apache.org/
+   [Bitbucket Pipelines Build]:https://bitbucket.org/hascode/jqassistant-tutorial/addon/pipelines/home#!/
+   
