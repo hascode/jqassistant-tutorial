@@ -7,7 +7,7 @@ embedded in an AsciiDoc document.
 To validate this project, simple run the following command using [Maven]:
 
 ```bash
-mvn jqassistant:analyze
+mvn clean package jqassistant:scan jqassistant:analyze
 ```
 
 Please feel free to visit my blog at [www.hascode.com] for the full tutorial and further information.
