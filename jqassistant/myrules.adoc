@@ -1,0 +1,14 @@
+[[default]]
+.A collection of architectural constraints.
+[role=group,severity=blocker,includesConstraints="myrules:LayerAccessConstraint"]
+== Architectural Constraints
+
+[[myrules:LayerAccessConstraint]]
+.Following the layer contract, the control layer may not access the boundary layer.
+[source,cypher,role=constraint,severity=blocker]
+----
+MATCH (control:Class)-[r*]->(boundary:Class)
+WHERE control.fqn STARTS WITH "com.hascode.control"
+AND boundary.fqn STARTS WITH "com.hascode.boundary"
+RETURN boundary
+----
