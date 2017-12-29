@@ -1,7 +1,7 @@
 # jqAssistant Tutorial
 
 This sample project demonstrates how verify architectural 
-constraints with [jqAssistant] writing the constraints as Cypher queries 
+constraints with [jqAssistant] by specifying constraints as Cypher queries 
 embedded in an AsciiDoc document.
 
 To validate this project, simple run the following command using [Maven]:
