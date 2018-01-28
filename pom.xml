@@ -35,6 +35,13 @@
             </configuration>
           </execution>
         </executions>
+        <configuration>
+          <store>
+            <uri>bolt://localhost:7687</uri>
+            <username>neo4j</username>
+            <password>password</password>
+          </store>
+        </configuration>
       </plugin>
     </plugins>
   </build>
